@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/swarm_gcs">
+    <file alias="qmldir">D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/swarm_gcs/qmldir</file>
+  </qresource>
+</RCC>
+

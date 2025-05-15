@@ -1,0 +1,5 @@
+module swarm_gcs
+typeinfo appswarm_gcs.qmltypes
+prefer :/qt/qml/swarm_gcs/
+Main 1.0 Main.qml
+

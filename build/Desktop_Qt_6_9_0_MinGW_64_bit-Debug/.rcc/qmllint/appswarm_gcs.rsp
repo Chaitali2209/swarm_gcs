@@ -1,0 +1,10 @@
+--bare
+-I
+D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug
+-I
+D:/QT/6.9.0/mingw_64/qml
+--resource
+D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/rcc/qmake_swarm_gcs.qrc
+--resource
+D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/rcc/appswarm_gcs_raw_qml_0.qrc
+D:/QT_projects/swarm_gcs/Main.qml
