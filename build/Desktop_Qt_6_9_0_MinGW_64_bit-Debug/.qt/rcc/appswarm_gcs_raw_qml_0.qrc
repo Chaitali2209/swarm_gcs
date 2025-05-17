@@ -1,6 +1,7 @@
 <RCC>
   <qresource prefix="/qt/qml/swarm_gcs/">
     <file alias="Main.qml">D:/QT_projects/swarm_gcs/Main.qml</file>
+    <file alias="resources.qrc">D:/QT_projects/swarm_gcs/resources.qrc</file>
   </qresource>
 </RCC>
 

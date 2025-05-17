@@ -1,9 +1,15 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
+#include <QFontDatabase>
 
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
+
+    QFontDatabase::addApplicationFont(":/fonts/assets/Poppins-Regular.ttf");
+    QFont appFont("Poppins");
+    app.setFont(appFont);
+
 
     QQmlApplicationEngine engine;
     QObject::connect(

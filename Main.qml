@@ -4,15 +4,24 @@ import QtQuick.Layouts 1.15
 import QtQuick.Window 2.15
 import QtMultimedia 6.2
 
+
 Window {
     visible: true
     width: 1400
     height: 900
     title: "Rapid Surveillance System"
+    color: "#0B1C2C"
+
+
+    // FontLoader {
+    //     id: poppinsFont
+    //     source: "qrc:/fonts/assets/Poppins-Regular.ttf"
+    // }
+
 
     property var rtspUrls: [
-        "rtsp://192.168.0.130:8554/stream4",
-        "rtsp://192.168.0.130:8554/stream4",
+        "rtsp://192.168.0.130:8554/stream1",
+        "rtsp://192.168.0.130:8554/stream2",
         "rtsp://192.168.0.130:8554/stream3",
         "rtsp://192.168.0.130:8554/stream4"
     ]
@@ -31,14 +40,97 @@ Window {
                 anchors.margins: 16
                 spacing: 20
 
-                Label {
-                    text: "Rapid Surveillance System"
-                    font.pixelSize: 32
-                    font.bold: true
-                    horizontalAlignment: Text.AlignHCenter
-                    Layout.alignment: Qt.AlignHCenter
-                    color: black
+                // Label {
+                //     text: "Rapid Surveillance System"
+                //     font.pixelSize: 32
+                //     font.bold: true
+                //     horizontalAlignment: Text.AlignHCenter
+                //     Layout.alignment: Qt.AlignHCenter
+                //     color: "#FFFFFF"
+                //     font.family: poppinsFont.name
+                // }
+
+                Rectangle {
+                    Layout.fillWidth: true
+                    Layout.preferredHeight: 50
+                    color: Qt.rgba(0x1B / 255, 0x3A / 255, 0x50 / 255, 0.3)
+                    radius: 8
+
+
+                    RowLayout {
+                        anchors.fill: parent
+                        anchors.margins: 8
+                        spacing: 20
+
+                        Label {
+                            text: "Video Feed"
+                            font.bold: true
+                            font.pixelSize: 22
+                            color: "#FFFFFF"
+                            Layout.alignment: Qt.AlignVCenter
+                        }
+
+                        Item { Layout.fillWidth: true }
+
+                        // --- Surveillance Logs Label Tab ---
+                        Rectangle {
+                            width: 180
+                            height: 36
+                            radius: 6
+                            color: "transparent"
+                            // border.color: "#3B82F6"
+
+                            Label {
+                                anchors.centerIn: parent
+                                text: "Surveillance Logs"
+                                font.pixelSize: 20
+                                color: "#FFFFFF"
+                            }
+
+                            MouseArea {
+                                anchors.fill: parent
+                                hoverEnabled: true
+                                cursorShape: Qt.PointingHandCursor
+                                onEntered: parent.color = "#2A4C6B"
+                                onExited: parent.color = "transparent"
+                                onClicked: {
+                                    console.log("Navigating to Surveillance Logs page")
+                                    // TODO: implement page switch
+                                }
+                            }
+                        }
+
+                        // --- Map View Label Tab ---
+                        Rectangle {
+                            width: 120
+                            height: 36
+                            radius: 6
+                            color: "transparent"
+                            // border.color: "#3B82F6"
+
+                            Label {
+                                anchors.centerIn: parent
+                                text: "Map View"
+                                font.pixelSize: 20
+                                color: "#FFFFFF"
+                            }
+
+                            MouseArea {
+                                anchors.fill: parent
+                                hoverEnabled: true
+                                cursorShape: Qt.PointingHandCursor
+                                onEntered: parent.color = "#2A4C6B"
+                                onExited: parent.color = "transparent"
+                                onClicked: {
+                                    console.log("Navigating to Map View page")
+                                    // TODO: implement page switch
+                                }
+                            }
+                        }
+                    }
                 }
+
+
 
                 GridLayout {
                     columns: 2
@@ -55,7 +147,7 @@ Window {
                             Layout.fillHeight: true
                             color: "white"
                             radius: 16
-                            border.color: "grey"
+                            border.color: "#3B82F6"
                             border.width: 1
                             // clip: true  // Important to enforce rounded corners on child items
                             // layer.enabled: true
@@ -107,11 +199,44 @@ Window {
                     width: swipeFeeds.width
                     height: swipeFeeds.height
 
-                    VideoOutput {
-                        id: fullscreenOutput
-                        anchors.fill: parent
-                        fillMode: VideoOutput.Stretch // Fills entire window
-                    }
+                    // Video container with rounded corners
+                                Rectangle {
+                                    id: roundedVideoContainer
+                                    anchors.fill: parent
+                                    radius: 20
+                                    color: "#33F0F4F8"
+
+                                    clip: true
+                                    anchors.margins: 24
+
+
+                                    VideoOutput {
+                                        id: fullscreenOutput
+                                        anchors.fill: parent
+                                        fillMode: VideoOutput.Stretch
+                                    }
+
+                                    // Bottom-left tab showing drone name
+                                                                   Rectangle {
+                                                                       width: 180
+                                                                       height: 40
+                                                                       radius: 8
+                                                                       color: "#F0F4F8"  // Light tab color
+                                                                       opacity: 0.85
+                                                                       anchors.left: parent.left
+                                                                       anchors.bottom: parent.bottom
+                                                                       anchors.margins: 16
+                                                                       z: 2
+
+                                                                       Label {
+                                                                           anchors.centerIn: parent
+                                                                           text: "Drone Feed " + (index + 1)
+                                                                           font.pixelSize: 20
+                                                                           color: "#1B3A50"
+                                                                           font.bold: true
+                                                                       }
+                                                                   }
+                                }
 
                     MediaPlayer {
                         id: fullscreenPlayer
@@ -120,15 +245,7 @@ Window {
                         videoOutput: fullscreenOutput
                     }
 
-                    Label {
-                        text: "Drone Feed " + (index + 1)
-                        font.pixelSize: 24
-                        color: "black"
-                        anchors.top: parent.top
-                        anchors.horizontalCenter: parent.horizontalCenter
-                        anchors.topMargin: 16
-                        z: 1
-                    }
+
                 }
             }
         }
@@ -140,19 +257,21 @@ Window {
         width: 56
         height: 56
         radius: 28
-        color: "#2196F3"
-        border.color: "white"
+        color: "#1B3A50"
+        border.color: "#3B82F6"
         anchors.bottom: parent.bottom
         anchors.right: parent.right
         anchors.margins: 24
         z: 100
 
-        Text {
-            anchors.centerIn: parent
-            text: isGridView ? "➤" : "⤺"
-            color: "white"
-            font.pixelSize: 24
-        }
+        Image {
+                id: toggleIcon
+                anchors.centerIn: parent
+                width: 32
+                height: 32
+                source: isGridView ? "qrc:/icons/assets/grid.png" : "qrc:/icons/assets/grid.png"
+                fillMode: Image.PreserveAspectFit
+            }
 
         MouseArea {
             anchors.fill: parent

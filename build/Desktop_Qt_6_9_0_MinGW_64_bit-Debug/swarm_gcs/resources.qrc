@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>assets/grid.png</file>
+    </qresource>
+    <qresource prefix="/fonts">
+        <file>assets/Poppins-Black.ttf</file>
+        <file>assets/Poppins-Bold.ttf</file>
+        <file>assets/Poppins-Medium.ttf</file>
+        <file>assets/Poppins-Regular.ttf</file>
+    </qresource>
+    <qresource prefix="/new/prefix1"/>
+</RCC>
