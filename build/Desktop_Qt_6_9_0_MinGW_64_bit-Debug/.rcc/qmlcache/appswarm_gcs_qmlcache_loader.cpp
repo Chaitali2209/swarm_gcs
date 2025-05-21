@@ -12,6 +12,20 @@ namespace _qt_qml_swarm_gcs_Main_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _qt_qml_swarm_gcs_MapView_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_swarm_gcs_SurveillanceLogs_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -27,6 +41,8 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 
 Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/swarm_gcs/Main.qml"), &QmlCacheGeneratedCode::_qt_qml_swarm_gcs_Main_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/swarm_gcs/MapView.qml"), &QmlCacheGeneratedCode::_qt_qml_swarm_gcs_MapView_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/swarm_gcs/SurveillanceLogs.qml"), &QmlCacheGeneratedCode::_qt_qml_swarm_gcs_SurveillanceLogs_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

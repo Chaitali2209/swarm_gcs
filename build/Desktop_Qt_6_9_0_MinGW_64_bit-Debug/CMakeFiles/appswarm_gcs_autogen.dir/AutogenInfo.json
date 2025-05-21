@@ -895,7 +895,21 @@
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/appswarm_gcs_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "appswarm_gcs_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"D:/QT_projects/swarm_gcs/TelemetryModel.h",
+			"MU",
+			"EWIEGA46WW/moc_TelemetryModel.cpp",
+			null
+		],
+		[
+			"D:/QT_projects/swarm_gcs/TelemetryReceiver.h",
+			"MU",
+			"EWIEGA46WW/moc_TelemetryReceiver.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/appswarm_gcs_autogen/include",
 	"MOC_COMPILATION_FILE" : "D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/appswarm_gcs_autogen/mocs_compilation.cpp",
@@ -979,6 +993,8 @@
 		"D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appswarm_gcs_raw_qml_0.cpp",
 		"D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_swarm_gcs.cpp",
 		"D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/appswarm_gcs_Main_qml.cpp",
+		"D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/appswarm_gcs_MapView_qml.cpp",
+		"D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/appswarm_gcs_SurveillanceLogs_qml.cpp",
 		"D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/appswarm_gcs_qmlcache_loader.cpp",
 		"D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/appswarm_gcs_qmltyperegistrations.cpp"
 	],
@@ -992,6 +1008,8 @@
 	"SETTINGS_FILE" : "D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/CMakeFiles/appswarm_gcs_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "D:/QT_projects/swarm_gcs/TelemetryModel.cpp", "MU", null ],
+		[ "D:/QT_projects/swarm_gcs/TelemetryReceiver.cpp", "MU", null ],
 		[ "D:/QT_projects/swarm_gcs/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
@@ -1001,6 +1019,8 @@
 		"D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appswarm_gcs_raw_qml_0.cpp",
 		"D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_swarm_gcs.cpp",
 		"D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/appswarm_gcs_Main_qml.cpp",
+		"D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/appswarm_gcs_MapView_qml.cpp",
+		"D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/appswarm_gcs_SurveillanceLogs_qml.cpp",
 		"D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/appswarm_gcs_qmlcache_loader.cpp",
 		"D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/appswarm_gcs_qmltyperegistrations.cpp"
 	],

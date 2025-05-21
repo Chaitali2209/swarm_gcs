@@ -47,7 +47,7 @@ cmake_ninja_workdir = D$:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_
 #############################################
 # Order-only phony target for appswarm_gcs
 
-build cmake_object_order_depends_target_appswarm_gcs: phony || .qt/rcc/qrc_appswarm_gcs_raw_qml_0.cpp .qt/rcc/qrc_qmake_swarm_gcs.cpp .rcc/qmlcache/appswarm_gcs_Main_qml.cpp .rcc/qmlcache/appswarm_gcs_Main_qml.cpp.aotstats .rcc/qmlcache/appswarm_gcs_qmlcache_loader.cpp appswarm_gcs_autogen appswarm_gcs_autogen/EWIEGA46WW/qrc_resources.cpp appswarm_gcs_autogen/mocs_compilation.cpp appswarm_gcs_autogen/timestamp appswarm_gcs_autogen_timestamp_deps appswarm_gcs_copy_qml appswarm_gcs_copy_res appswarm_gcs_qmlimportscan appswarm_gcs_qmltyperegistrations.cpp meta_types/appswarm_gcs_json_file_list.txt meta_types/appswarm_gcs_json_file_list.txt.timestamp meta_types/qt6appswarm_gcs_debug_metatypes.json meta_types/qt6appswarm_gcs_debug_metatypes.json.gen swarm_gcs/appswarm_gcs.qmltypes
+build cmake_object_order_depends_target_appswarm_gcs: phony || .qt/rcc/qrc_appswarm_gcs_raw_qml_0.cpp .qt/rcc/qrc_qmake_swarm_gcs.cpp .rcc/qmlcache/appswarm_gcs_Main_qml.cpp .rcc/qmlcache/appswarm_gcs_Main_qml.cpp.aotstats .rcc/qmlcache/appswarm_gcs_MapView_qml.cpp .rcc/qmlcache/appswarm_gcs_MapView_qml.cpp.aotstats .rcc/qmlcache/appswarm_gcs_SurveillanceLogs_qml.cpp .rcc/qmlcache/appswarm_gcs_SurveillanceLogs_qml.cpp.aotstats .rcc/qmlcache/appswarm_gcs_qmlcache_loader.cpp appswarm_gcs_autogen appswarm_gcs_autogen/EWIEGA46WW/qrc_resources.cpp appswarm_gcs_autogen/mocs_compilation.cpp appswarm_gcs_autogen/timestamp appswarm_gcs_autogen_timestamp_deps appswarm_gcs_copy_qml appswarm_gcs_copy_res appswarm_gcs_qmlimportscan appswarm_gcs_qmltyperegistrations.cpp meta_types/appswarm_gcs_json_file_list.txt meta_types/appswarm_gcs_json_file_list.txt.timestamp meta_types/qt6appswarm_gcs_debug_metatypes.json meta_types/qt6appswarm_gcs_debug_metatypes.json.gen swarm_gcs/appswarm_gcs.qmltypes
 
 build CMakeFiles/appswarm_gcs.dir/appswarm_gcs_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__appswarm_gcs_unscanned_Debug D$:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/appswarm_gcs_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_appswarm_gcs
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
@@ -81,6 +81,22 @@ build CMakeFiles/appswarm_gcs.dir/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/
   OBJECT_DIR = CMakeFiles\appswarm_gcs.dir
   OBJECT_FILE_DIR = CMakeFiles\appswarm_gcs.dir\build\Desktop_Qt_6_9_0_MinGW_64_bit-Debug\.qt\rcc
 
+build CMakeFiles/appswarm_gcs.dir/TelemetryReceiver.cpp.obj: CXX_COMPILER__appswarm_gcs_unscanned_Debug D$:/QT_projects/swarm_gcs/TelemetryReceiver.cpp || cmake_object_order_depends_target_appswarm_gcs
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\appswarm_gcs.dir\TelemetryReceiver.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always
+  INCLUDES = -ID:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/appswarm_gcs_autogen/include -ID:/QT_projects/swarm_gcs -isystem D:/QT/6.9.0/mingw_64/include/QtQml/6.9.0 -isystem D:/QT/6.9.0/mingw_64/include/QtQml/6.9.0/QtQml -isystem D:/QT/6.9.0/mingw_64/include/QtCore/6.9.0 -isystem D:/QT/6.9.0/mingw_64/include/QtCore/6.9.0/QtCore -isystem D:/QT/6.9.0/mingw_64/include/QtCore -isystem D:/QT/6.9.0/mingw_64/include -isystem D:/QT/6.9.0/mingw_64/mkspecs/win32-g++ -isystem D:/QT/6.9.0/mingw_64/include/QtQml -isystem D:/QT/6.9.0/mingw_64/include/QtQmlIntegration -isystem D:/QT/6.9.0/mingw_64/include/QtNetwork -isystem D:/QT/6.9.0/mingw_64/include/QtQuick -isystem D:/QT/6.9.0/mingw_64/include/QtGui -isystem D:/QT/6.9.0/mingw_64/include/QtQmlMeta -isystem D:/QT/6.9.0/mingw_64/include/QtQmlModels -isystem D:/QT/6.9.0/mingw_64/include/QtQmlWorkerScript -isystem D:/QT/6.9.0/mingw_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles\appswarm_gcs.dir
+  OBJECT_FILE_DIR = CMakeFiles\appswarm_gcs.dir
+
+build CMakeFiles/appswarm_gcs.dir/TelemetryModel.cpp.obj: CXX_COMPILER__appswarm_gcs_unscanned_Debug D$:/QT_projects/swarm_gcs/TelemetryModel.cpp || cmake_object_order_depends_target_appswarm_gcs
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\appswarm_gcs.dir\TelemetryModel.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always
+  INCLUDES = -ID:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/appswarm_gcs_autogen/include -ID:/QT_projects/swarm_gcs -isystem D:/QT/6.9.0/mingw_64/include/QtQml/6.9.0 -isystem D:/QT/6.9.0/mingw_64/include/QtQml/6.9.0/QtQml -isystem D:/QT/6.9.0/mingw_64/include/QtCore/6.9.0 -isystem D:/QT/6.9.0/mingw_64/include/QtCore/6.9.0/QtCore -isystem D:/QT/6.9.0/mingw_64/include/QtCore -isystem D:/QT/6.9.0/mingw_64/include -isystem D:/QT/6.9.0/mingw_64/mkspecs/win32-g++ -isystem D:/QT/6.9.0/mingw_64/include/QtQml -isystem D:/QT/6.9.0/mingw_64/include/QtQmlIntegration -isystem D:/QT/6.9.0/mingw_64/include/QtNetwork -isystem D:/QT/6.9.0/mingw_64/include/QtQuick -isystem D:/QT/6.9.0/mingw_64/include/QtGui -isystem D:/QT/6.9.0/mingw_64/include/QtQmlMeta -isystem D:/QT/6.9.0/mingw_64/include/QtQmlModels -isystem D:/QT/6.9.0/mingw_64/include/QtQmlWorkerScript -isystem D:/QT/6.9.0/mingw_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles\appswarm_gcs.dir
+  OBJECT_FILE_DIR = CMakeFiles\appswarm_gcs.dir
+
 build CMakeFiles/appswarm_gcs.dir/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/appswarm_gcs_qmlcache_loader.cpp.obj: CXX_COMPILER__appswarm_gcs_unscanned_Debug D$:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/appswarm_gcs_qmlcache_loader.cpp || cmake_object_order_depends_target_appswarm_gcs
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\appswarm_gcs.dir\build\Desktop_Qt_6_9_0_MinGW_64_bit-Debug\.rcc\qmlcache\appswarm_gcs_qmlcache_loader.cpp.obj.d
@@ -92,6 +108,22 @@ build CMakeFiles/appswarm_gcs.dir/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc
 build CMakeFiles/appswarm_gcs.dir/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/appswarm_gcs_Main_qml.cpp.obj: CXX_COMPILER__appswarm_gcs_unscanned_Debug D$:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/appswarm_gcs_Main_qml.cpp || cmake_object_order_depends_target_appswarm_gcs
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\appswarm_gcs.dir\build\Desktop_Qt_6_9_0_MinGW_64_bit-Debug\.rcc\qmlcache\appswarm_gcs_Main_qml.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always
+  INCLUDES = -ID:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/appswarm_gcs_autogen/include -ID:/QT_projects/swarm_gcs -isystem D:/QT/6.9.0/mingw_64/include/QtQml/6.9.0 -isystem D:/QT/6.9.0/mingw_64/include/QtQml/6.9.0/QtQml -isystem D:/QT/6.9.0/mingw_64/include/QtCore/6.9.0 -isystem D:/QT/6.9.0/mingw_64/include/QtCore/6.9.0/QtCore -isystem D:/QT/6.9.0/mingw_64/include/QtCore -isystem D:/QT/6.9.0/mingw_64/include -isystem D:/QT/6.9.0/mingw_64/mkspecs/win32-g++ -isystem D:/QT/6.9.0/mingw_64/include/QtQml -isystem D:/QT/6.9.0/mingw_64/include/QtQmlIntegration -isystem D:/QT/6.9.0/mingw_64/include/QtNetwork -isystem D:/QT/6.9.0/mingw_64/include/QtQuick -isystem D:/QT/6.9.0/mingw_64/include/QtGui -isystem D:/QT/6.9.0/mingw_64/include/QtQmlMeta -isystem D:/QT/6.9.0/mingw_64/include/QtQmlModels -isystem D:/QT/6.9.0/mingw_64/include/QtQmlWorkerScript -isystem D:/QT/6.9.0/mingw_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles\appswarm_gcs.dir
+  OBJECT_FILE_DIR = CMakeFiles\appswarm_gcs.dir\build\Desktop_Qt_6_9_0_MinGW_64_bit-Debug\.rcc\qmlcache
+
+build CMakeFiles/appswarm_gcs.dir/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/appswarm_gcs_MapView_qml.cpp.obj: CXX_COMPILER__appswarm_gcs_unscanned_Debug D$:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/appswarm_gcs_MapView_qml.cpp || cmake_object_order_depends_target_appswarm_gcs
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\appswarm_gcs.dir\build\Desktop_Qt_6_9_0_MinGW_64_bit-Debug\.rcc\qmlcache\appswarm_gcs_MapView_qml.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always
+  INCLUDES = -ID:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/appswarm_gcs_autogen/include -ID:/QT_projects/swarm_gcs -isystem D:/QT/6.9.0/mingw_64/include/QtQml/6.9.0 -isystem D:/QT/6.9.0/mingw_64/include/QtQml/6.9.0/QtQml -isystem D:/QT/6.9.0/mingw_64/include/QtCore/6.9.0 -isystem D:/QT/6.9.0/mingw_64/include/QtCore/6.9.0/QtCore -isystem D:/QT/6.9.0/mingw_64/include/QtCore -isystem D:/QT/6.9.0/mingw_64/include -isystem D:/QT/6.9.0/mingw_64/mkspecs/win32-g++ -isystem D:/QT/6.9.0/mingw_64/include/QtQml -isystem D:/QT/6.9.0/mingw_64/include/QtQmlIntegration -isystem D:/QT/6.9.0/mingw_64/include/QtNetwork -isystem D:/QT/6.9.0/mingw_64/include/QtQuick -isystem D:/QT/6.9.0/mingw_64/include/QtGui -isystem D:/QT/6.9.0/mingw_64/include/QtQmlMeta -isystem D:/QT/6.9.0/mingw_64/include/QtQmlModels -isystem D:/QT/6.9.0/mingw_64/include/QtQmlWorkerScript -isystem D:/QT/6.9.0/mingw_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles\appswarm_gcs.dir
+  OBJECT_FILE_DIR = CMakeFiles\appswarm_gcs.dir\build\Desktop_Qt_6_9_0_MinGW_64_bit-Debug\.rcc\qmlcache
+
+build CMakeFiles/appswarm_gcs.dir/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/appswarm_gcs_SurveillanceLogs_qml.cpp.obj: CXX_COMPILER__appswarm_gcs_unscanned_Debug D$:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/appswarm_gcs_SurveillanceLogs_qml.cpp || cmake_object_order_depends_target_appswarm_gcs
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\appswarm_gcs.dir\build\Desktop_Qt_6_9_0_MinGW_64_bit-Debug\.rcc\qmlcache\appswarm_gcs_SurveillanceLogs_qml.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always
   INCLUDES = -ID:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/appswarm_gcs_autogen/include -ID:/QT_projects/swarm_gcs -isystem D:/QT/6.9.0/mingw_64/include/QtQml/6.9.0 -isystem D:/QT/6.9.0/mingw_64/include/QtQml/6.9.0/QtQml -isystem D:/QT/6.9.0/mingw_64/include/QtCore/6.9.0 -isystem D:/QT/6.9.0/mingw_64/include/QtCore/6.9.0/QtCore -isystem D:/QT/6.9.0/mingw_64/include/QtCore -isystem D:/QT/6.9.0/mingw_64/include -isystem D:/QT/6.9.0/mingw_64/mkspecs/win32-g++ -isystem D:/QT/6.9.0/mingw_64/include/QtQml -isystem D:/QT/6.9.0/mingw_64/include/QtQmlIntegration -isystem D:/QT/6.9.0/mingw_64/include/QtNetwork -isystem D:/QT/6.9.0/mingw_64/include/QtQuick -isystem D:/QT/6.9.0/mingw_64/include/QtGui -isystem D:/QT/6.9.0/mingw_64/include/QtQmlMeta -isystem D:/QT/6.9.0/mingw_64/include/QtQmlModels -isystem D:/QT/6.9.0/mingw_64/include/QtQmlWorkerScript -isystem D:/QT/6.9.0/mingw_64/include/QtOpenGL
   OBJECT_DIR = CMakeFiles\appswarm_gcs.dir
@@ -121,7 +153,7 @@ build CMakeFiles/appswarm_gcs.dir/appswarm_gcs_autogen/EWIEGA46WW/qrc_resources.
 #############################################
 # Link the executable appswarm_gcs.exe
 
-build appswarm_gcs.exe: CXX_EXECUTABLE_LINKER__appswarm_gcs_Debug CMakeFiles/appswarm_gcs.dir/appswarm_gcs_autogen/mocs_compilation.cpp.obj CMakeFiles/appswarm_gcs.dir/main.cpp.obj CMakeFiles/appswarm_gcs.dir/appswarm_gcs_qmltyperegistrations.cpp.obj CMakeFiles/appswarm_gcs.dir/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_swarm_gcs.cpp.obj CMakeFiles/appswarm_gcs.dir/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/appswarm_gcs_qmlcache_loader.cpp.obj CMakeFiles/appswarm_gcs.dir/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/appswarm_gcs_Main_qml.cpp.obj CMakeFiles/appswarm_gcs.dir/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appswarm_gcs_raw_qml_0.cpp.obj CMakeFiles/appswarm_gcs.dir/appswarm_gcs_autogen/EWIEGA46WW/qrc_resources.cpp.obj | D$:/QT/6.9.0/mingw_64/lib/libQt6Quick.a D$:/QT/6.9.0/mingw_64/lib/libQt6QmlMeta.a D$:/QT/6.9.0/mingw_64/lib/libQt6QmlWorkerScript.a D$:/QT/6.9.0/mingw_64/lib/libQt6QmlModels.a D$:/QT/6.9.0/mingw_64/lib/libQt6Qml.a D$:/QT/6.9.0/mingw_64/lib/libQt6Network.a D$:/QT/6.9.0/mingw_64/lib/libQt6OpenGL.a D$:/QT/6.9.0/mingw_64/lib/libQt6Gui.a D$:/QT/6.9.0/mingw_64/lib/libQt6Core.a D$:/QT/6.9.0/mingw_64/lib/libQt6EntryPoint.a || appswarm_gcs_autogen appswarm_gcs_autogen_timestamp_deps appswarm_gcs_copy_qml appswarm_gcs_copy_res appswarm_gcs_qmlimportscan
+build appswarm_gcs.exe: CXX_EXECUTABLE_LINKER__appswarm_gcs_Debug CMakeFiles/appswarm_gcs.dir/appswarm_gcs_autogen/mocs_compilation.cpp.obj CMakeFiles/appswarm_gcs.dir/main.cpp.obj CMakeFiles/appswarm_gcs.dir/appswarm_gcs_qmltyperegistrations.cpp.obj CMakeFiles/appswarm_gcs.dir/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_swarm_gcs.cpp.obj CMakeFiles/appswarm_gcs.dir/TelemetryReceiver.cpp.obj CMakeFiles/appswarm_gcs.dir/TelemetryModel.cpp.obj CMakeFiles/appswarm_gcs.dir/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/appswarm_gcs_qmlcache_loader.cpp.obj CMakeFiles/appswarm_gcs.dir/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/appswarm_gcs_Main_qml.cpp.obj CMakeFiles/appswarm_gcs.dir/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/appswarm_gcs_MapView_qml.cpp.obj CMakeFiles/appswarm_gcs.dir/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/appswarm_gcs_SurveillanceLogs_qml.cpp.obj CMakeFiles/appswarm_gcs.dir/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appswarm_gcs_raw_qml_0.cpp.obj CMakeFiles/appswarm_gcs.dir/appswarm_gcs_autogen/EWIEGA46WW/qrc_resources.cpp.obj | D$:/QT/6.9.0/mingw_64/lib/libQt6Quick.a D$:/QT/6.9.0/mingw_64/lib/libQt6QmlMeta.a D$:/QT/6.9.0/mingw_64/lib/libQt6QmlWorkerScript.a D$:/QT/6.9.0/mingw_64/lib/libQt6QmlModels.a D$:/QT/6.9.0/mingw_64/lib/libQt6Qml.a D$:/QT/6.9.0/mingw_64/lib/libQt6Network.a D$:/QT/6.9.0/mingw_64/lib/libQt6OpenGL.a D$:/QT/6.9.0/mingw_64/lib/libQt6Gui.a D$:/QT/6.9.0/mingw_64/lib/libQt6Core.a D$:/QT/6.9.0/mingw_64/lib/libQt6EntryPoint.a || appswarm_gcs_autogen appswarm_gcs_autogen_timestamp_deps appswarm_gcs_copy_qml appswarm_gcs_copy_res appswarm_gcs_qmlimportscan
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = D:/QT/6.9.0/mingw_64/lib/libQt6Quick.a  D:/QT/6.9.0/mingw_64/lib/libQt6QmlMeta.a  D:/QT/6.9.0/mingw_64/lib/libQt6QmlWorkerScript.a  D:/QT/6.9.0/mingw_64/lib/libQt6QmlModels.a  D:/QT/6.9.0/mingw_64/lib/libQt6Qml.a  D:/QT/6.9.0/mingw_64/lib/libQt6Network.a  -lws2_32  D:/QT/6.9.0/mingw_64/lib/libQt6OpenGL.a  D:/QT/6.9.0/mingw_64/lib/libQt6Gui.a  D:/QT/6.9.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  D:/QT/6.9.0/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -luser32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -196,13 +228,13 @@ build appswarm_gcs_copy_res: phony CMakeFiles/appswarm_gcs_copy_res .qt/appswarm
 #############################################
 # Utility command for module_appswarm_gcs_aotstats_target
 
-build module_appswarm_gcs_aotstats_target: phony CMakeFiles/module_appswarm_gcs_aotstats_target .rcc/qmlcache/module_appswarm_gcs.aotstats .rcc/qmlcache/appswarm_gcs_Main_qml.cpp .rcc/qmlcache/appswarm_gcs_Main_qml.cpp.aotstats appswarm_gcs_qmltyperegistrations.cpp swarm_gcs/appswarm_gcs.qmltypes appswarm_gcs_qmltyperegistration
+build module_appswarm_gcs_aotstats_target: phony CMakeFiles/module_appswarm_gcs_aotstats_target .rcc/qmlcache/module_appswarm_gcs.aotstats .rcc/qmlcache/appswarm_gcs_Main_qml.cpp .rcc/qmlcache/appswarm_gcs_Main_qml.cpp.aotstats .rcc/qmlcache/appswarm_gcs_MapView_qml.cpp .rcc/qmlcache/appswarm_gcs_MapView_qml.cpp.aotstats .rcc/qmlcache/appswarm_gcs_SurveillanceLogs_qml.cpp .rcc/qmlcache/appswarm_gcs_SurveillanceLogs_qml.cpp.aotstats appswarm_gcs_qmltyperegistrations.cpp swarm_gcs/appswarm_gcs.qmltypes appswarm_gcs_qmltyperegistration
 
 
 #############################################
 # Utility command for all_aotstats
 
-build all_aotstats: phony CMakeFiles/all_aotstats .rcc/qmlcache/all_aotstats.aotstats .rcc/qmlcache/all_aotstats.txt .rcc/qmlcache/module_appswarm_gcs.aotstats .rcc/qmlcache/appswarm_gcs_Main_qml.cpp .rcc/qmlcache/appswarm_gcs_Main_qml.cpp.aotstats appswarm_gcs_qmltyperegistrations.cpp swarm_gcs/appswarm_gcs.qmltypes module_appswarm_gcs_aotstats_target
+build all_aotstats: phony CMakeFiles/all_aotstats .rcc/qmlcache/all_aotstats.aotstats .rcc/qmlcache/all_aotstats.txt .rcc/qmlcache/module_appswarm_gcs.aotstats .rcc/qmlcache/appswarm_gcs_Main_qml.cpp .rcc/qmlcache/appswarm_gcs_Main_qml.cpp.aotstats .rcc/qmlcache/appswarm_gcs_MapView_qml.cpp .rcc/qmlcache/appswarm_gcs_MapView_qml.cpp.aotstats .rcc/qmlcache/appswarm_gcs_SurveillanceLogs_qml.cpp .rcc/qmlcache/appswarm_gcs_SurveillanceLogs_qml.cpp.aotstats appswarm_gcs_qmltyperegistrations.cpp swarm_gcs/appswarm_gcs.qmltypes module_appswarm_gcs_aotstats_target
 
 
 #############################################
@@ -335,9 +367,27 @@ build .rcc/qmlcache/appswarm_gcs_Main_qml.cpp .rcc/qmlcache/appswarm_gcs_Main_qm
 
 
 #############################################
+# Custom command for .rcc\qmlcache\appswarm_gcs_MapView_qml.cpp
+
+build .rcc/qmlcache/appswarm_gcs_MapView_qml.cpp .rcc/qmlcache/appswarm_gcs_MapView_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/appswarm_gcs_MapView_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/appswarm_gcs_MapView_qml.cpp.aotstats: CUSTOM_COMMAND D$:/QT/6.9.0/mingw_64/bin/qmlcachegen.exe D$:/QT_projects/swarm_gcs/MapView.qml .qt/rcc/qmake_swarm_gcs.qrc .qt/rcc/appswarm_gcs_raw_qml_0.qrc swarm_gcs/appswarm_gcs.qmltypes swarm_gcs/qmldir
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\QT_projects\swarm_gcs\build\Desktop_Qt_6_9_0_MinGW_64_bit-Debug && D:\QT\Tools\CMake_64\bin\cmake.exe -E make_directory D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache && D:\QT_projects\swarm_gcs\build\Desktop_Qt_6_9_0_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat D:/QT/6.9.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/swarm_gcs/MapView.qml -I D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug -I D:/QT/6.9.0/mingw_64/qml -i D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/swarm_gcs/qmldir --resource D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/rcc/qmake_swarm_gcs.qrc --resource D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/rcc/appswarm_gcs_raw_qml_0.qrc --dump-aot-stats --module-id=swarm_gcs(appswarm_gcs) -o D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/appswarm_gcs_MapView_qml.cpp D:/QT_projects/swarm_gcs/MapView.qml"
+  DESC = Generating .rcc/qmlcache/appswarm_gcs_MapView_qml.cpp, .rcc/qmlcache/appswarm_gcs_MapView_qml.cpp.aotstats
+  restat = 1
+
+
+#############################################
+# Custom command for .rcc\qmlcache\appswarm_gcs_SurveillanceLogs_qml.cpp
+
+build .rcc/qmlcache/appswarm_gcs_SurveillanceLogs_qml.cpp .rcc/qmlcache/appswarm_gcs_SurveillanceLogs_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/appswarm_gcs_SurveillanceLogs_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/appswarm_gcs_SurveillanceLogs_qml.cpp.aotstats: CUSTOM_COMMAND D$:/QT/6.9.0/mingw_64/bin/qmlcachegen.exe D$:/QT_projects/swarm_gcs/SurveillanceLogs.qml .qt/rcc/qmake_swarm_gcs.qrc .qt/rcc/appswarm_gcs_raw_qml_0.qrc swarm_gcs/appswarm_gcs.qmltypes swarm_gcs/qmldir
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\QT_projects\swarm_gcs\build\Desktop_Qt_6_9_0_MinGW_64_bit-Debug && D:\QT\Tools\CMake_64\bin\cmake.exe -E make_directory D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache && D:\QT_projects\swarm_gcs\build\Desktop_Qt_6_9_0_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat D:/QT/6.9.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/swarm_gcs/SurveillanceLogs.qml -I D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug -I D:/QT/6.9.0/mingw_64/qml -i D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/swarm_gcs/qmldir --resource D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/rcc/qmake_swarm_gcs.qrc --resource D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/rcc/appswarm_gcs_raw_qml_0.qrc --dump-aot-stats --module-id=swarm_gcs(appswarm_gcs) -o D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/appswarm_gcs_SurveillanceLogs_qml.cpp D:/QT_projects/swarm_gcs/SurveillanceLogs.qml"
+  DESC = Generating .rcc/qmlcache/appswarm_gcs_SurveillanceLogs_qml.cpp, .rcc/qmlcache/appswarm_gcs_SurveillanceLogs_qml.cpp.aotstats
+  restat = 1
+
+
+#############################################
 # Custom command for .qt\rcc\qrc_appswarm_gcs_raw_qml_0.cpp
 
-build .qt/rcc/qrc_appswarm_gcs_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appswarm_gcs_raw_qml_0.cpp: CUSTOM_COMMAND D$:/QT_projects/swarm_gcs/Main.qml D$:/QT_projects/swarm_gcs/resources.qrc .qt/rcc/appswarm_gcs_raw_qml_0.qrc D$:/QT/6.9.0/mingw_64/bin/rcc.exe || appswarm_gcs_autogen appswarm_gcs_autogen_timestamp_deps appswarm_gcs_copy_qml appswarm_gcs_copy_res appswarm_gcs_qmlimportscan
+build .qt/rcc/qrc_appswarm_gcs_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appswarm_gcs_raw_qml_0.cpp: CUSTOM_COMMAND D$:/QT_projects/swarm_gcs/Main.qml D$:/QT_projects/swarm_gcs/MapView.qml D$:/QT_projects/swarm_gcs/SurveillanceLogs.qml D$:/QT_projects/swarm_gcs/resources.qrc .qt/rcc/appswarm_gcs_raw_qml_0.qrc D$:/QT/6.9.0/mingw_64/bin/rcc.exe || appswarm_gcs_autogen appswarm_gcs_autogen_timestamp_deps appswarm_gcs_copy_qml appswarm_gcs_copy_res appswarm_gcs_qmlimportscan
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\QT_projects\swarm_gcs\build\Desktop_Qt_6_9_0_MinGW_64_bit-Debug && D:\QT\6.9.0\mingw_64\bin\rcc.exe --output D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/rcc/qrc_appswarm_gcs_raw_qml_0.cpp --name appswarm_gcs_raw_qml_0 D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/rcc/appswarm_gcs_raw_qml_0.qrc --no-zstd"
   DESC = Running rcc for resource appswarm_gcs_raw_qml_0
   restat = 1
@@ -381,21 +431,21 @@ build CMakeFiles/appswarm_gcs_qmltyperegistration | ${cmake_ninja_workdir}CMakeF
 #############################################
 # Custom command for CMakeFiles\appswarm_gcs_qmllint
 
-build CMakeFiles/appswarm_gcs_qmllint | ${cmake_ninja_workdir}CMakeFiles/appswarm_gcs_qmllint: CUSTOM_COMMAND D$:/QT/6.9.0/mingw_64/bin/qmllint.exe D$:/QT_projects/swarm_gcs/Main.qml .rcc/qmllint/appswarm_gcs.rsp || all_qmltyperegistrations appswarm_gcs_qmltyperegistration
+build CMakeFiles/appswarm_gcs_qmllint | ${cmake_ninja_workdir}CMakeFiles/appswarm_gcs_qmllint: CUSTOM_COMMAND D$:/QT/6.9.0/mingw_64/bin/qmllint.exe D$:/QT_projects/swarm_gcs/Main.qml D$:/QT_projects/swarm_gcs/MapView.qml D$:/QT_projects/swarm_gcs/SurveillanceLogs.qml .rcc/qmllint/appswarm_gcs.rsp || all_qmltyperegistrations appswarm_gcs_qmltyperegistration
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\QT_projects\swarm_gcs && D:\QT_projects\swarm_gcs\build\Desktop_Qt_6_9_0_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat D:/QT/6.9.0/mingw_64/bin/qmllint.exe @D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmllint/appswarm_gcs.rsp"
 
 
 #############################################
 # Custom command for CMakeFiles\appswarm_gcs_qmllint_json
 
-build CMakeFiles/appswarm_gcs_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appswarm_gcs_qmllint_json: CUSTOM_COMMAND D$:/QT/6.9.0/mingw_64/bin/qmllint.exe D$:/QT_projects/swarm_gcs/Main.qml .rcc/qmllint/appswarm_gcs_json.rsp || all_qmltyperegistrations appswarm_gcs_qmltyperegistration
+build CMakeFiles/appswarm_gcs_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appswarm_gcs_qmllint_json: CUSTOM_COMMAND D$:/QT/6.9.0/mingw_64/bin/qmllint.exe D$:/QT_projects/swarm_gcs/Main.qml D$:/QT_projects/swarm_gcs/MapView.qml D$:/QT_projects/swarm_gcs/SurveillanceLogs.qml .rcc/qmllint/appswarm_gcs_json.rsp || all_qmltyperegistrations appswarm_gcs_qmltyperegistration
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\QT_projects\swarm_gcs && D:\QT_projects\swarm_gcs\build\Desktop_Qt_6_9_0_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat D:/QT/6.9.0/mingw_64/bin/qmllint.exe @D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmllint/appswarm_gcs_json.rsp"
 
 
 #############################################
 # Custom command for CMakeFiles\appswarm_gcs_qmllint_module
 
-build CMakeFiles/appswarm_gcs_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appswarm_gcs_qmllint_module: CUSTOM_COMMAND D$:/QT/6.9.0/mingw_64/bin/qmllint.exe D$:/QT_projects/swarm_gcs/Main.qml .rcc/qmllint/appswarm_gcs_module.rsp || all_qmltyperegistrations appswarm_gcs_qmltyperegistration
+build CMakeFiles/appswarm_gcs_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appswarm_gcs_qmllint_module: CUSTOM_COMMAND D$:/QT/6.9.0/mingw_64/bin/qmllint.exe D$:/QT_projects/swarm_gcs/Main.qml D$:/QT_projects/swarm_gcs/MapView.qml D$:/QT_projects/swarm_gcs/SurveillanceLogs.qml .rcc/qmllint/appswarm_gcs_module.rsp || all_qmltyperegistrations appswarm_gcs_qmltyperegistration
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\QT_projects\swarm_gcs && D:\QT_projects\swarm_gcs\build\Desktop_Qt_6_9_0_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat D:/QT/6.9.0/mingw_64/bin/qmllint.exe @D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmllint/appswarm_gcs_module.rsp"
 
 
@@ -408,7 +458,7 @@ build CMakeFiles/appswarm_gcs_copy_qml | ${cmake_ninja_workdir}CMakeFiles/appswa
 #############################################
 # Custom command for .qt\appswarm_gcs_qml.txt
 
-build .qt/appswarm_gcs_qml.txt | ${cmake_ninja_workdir}.qt/appswarm_gcs_qml.txt: CUSTOM_COMMAND D$:/QT/6.9.0/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake D$:/QT_projects/swarm_gcs/Main.qml
+build .qt/appswarm_gcs_qml.txt | ${cmake_ninja_workdir}.qt/appswarm_gcs_qml.txt: CUSTOM_COMMAND D$:/QT/6.9.0/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake D$:/QT_projects/swarm_gcs/Main.qml D$:/QT_projects/swarm_gcs/MapView.qml D$:/QT_projects/swarm_gcs/SurveillanceLogs.qml
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\QT_projects\swarm_gcs\build\Desktop_Qt_6_9_0_MinGW_64_bit-Debug && D:\QT\Tools\CMake_64\bin\cmake.exe -DFILES_INFO_PATH=D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/appswarm_gcs_qml.cmake -P D:/QT/6.9.0/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake"
   DESC = Copying appswarm_gcs qml sources into build dir
   restat = 1
@@ -438,7 +488,7 @@ build CMakeFiles/module_appswarm_gcs_aotstats_target | ${cmake_ninja_workdir}CMa
 #############################################
 # Custom command for .rcc\qmlcache\module_appswarm_gcs.aotstats
 
-build .rcc/qmlcache/module_appswarm_gcs.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/module_appswarm_gcs.aotstats: CUSTOM_COMMAND .rcc/qmlcache/appswarm_gcs_Main_qml.cpp.aotstats .rcc/qmlcache/module_appswarm_gcs.aotstatslist || appswarm_gcs_qmltyperegistration
+build .rcc/qmlcache/module_appswarm_gcs.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/module_appswarm_gcs.aotstats: CUSTOM_COMMAND .rcc/qmlcache/appswarm_gcs_Main_qml.cpp.aotstats .rcc/qmlcache/appswarm_gcs_MapView_qml.cpp.aotstats .rcc/qmlcache/appswarm_gcs_SurveillanceLogs_qml.cpp.aotstats .rcc/qmlcache/module_appswarm_gcs.aotstatslist || appswarm_gcs_qmltyperegistration
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\QT_projects\swarm_gcs\build\Desktop_Qt_6_9_0_MinGW_64_bit-Debug && D:\QT_projects\swarm_gcs\build\Desktop_Qt_6_9_0_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat D:/QT/6.9.0/mingw_64/bin/qmlaotstats.exe aggregate D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/module_appswarm_gcs.aotstatslist D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.rcc/qmlcache/module_appswarm_gcs.aotstats"
   DESC = Generating .rcc/qmlcache/module_appswarm_gcs.aotstats
   restat = 1
@@ -469,7 +519,7 @@ build CMakeFiles/appswarm_gcs_qmlimportscan | ${cmake_ninja_workdir}CMakeFiles/a
 #############################################
 # Custom command for .qt\qml_imports\appswarm_gcs_build.cmake
 
-build .qt/qml_imports/appswarm_gcs_build.cmake | ${cmake_ninja_workdir}.qt/qml_imports/appswarm_gcs_build.cmake: CUSTOM_COMMAND D$:/QT/6.9.0/mingw_64/bin/qmlimportscanner.exe .qt/rcc/qmake_swarm_gcs.qrc .qt/rcc/appswarm_gcs_raw_qml_0.qrc D$:/QT_projects/swarm_gcs/Main.qml
+build .qt/qml_imports/appswarm_gcs_build.cmake | ${cmake_ninja_workdir}.qt/qml_imports/appswarm_gcs_build.cmake: CUSTOM_COMMAND D$:/QT/6.9.0/mingw_64/bin/qmlimportscanner.exe .qt/rcc/qmake_swarm_gcs.qrc .qt/rcc/appswarm_gcs_raw_qml_0.qrc D$:/QT_projects/swarm_gcs/Main.qml D$:/QT_projects/swarm_gcs/MapView.qml D$:/QT_projects/swarm_gcs/SurveillanceLogs.qml
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\QT_projects\swarm_gcs && D:\QT_projects\swarm_gcs\build\Desktop_Qt_6_9_0_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat D:/QT/6.9.0/mingw_64/bin/qmlimportscanner.exe @D:/QT_projects/swarm_gcs/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/.qt/qml_imports/appswarm_gcs_build.rsp"
   DESC = Running qmlimportscanner for appswarm_gcs
   restat = 1

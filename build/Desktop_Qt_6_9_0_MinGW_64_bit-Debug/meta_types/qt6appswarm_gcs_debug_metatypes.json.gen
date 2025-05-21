@@ -1,2 +1,74 @@
 [
+    {
+        "classes": [
+            {
+                "className": "TelemetryModel",
+                "lineNumber": 17,
+                "object": true,
+                "qualifiedClassName": "TelemetryModel",
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "data",
+                                "type": "QJsonObject"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "addTelemetry",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "TelemetryModel.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "TelemetryReceiver",
+                "lineNumber": 9,
+                "object": true,
+                "qualifiedClassName": "TelemetryReceiver",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "data",
+                                "type": "QJsonObject"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "telemetryReceived",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "index": 1,
+                        "name": "readPendingDatagrams",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "TelemetryReceiver.h",
+        "outputRevision": 69
+    }
 ]

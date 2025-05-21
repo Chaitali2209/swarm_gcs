@@ -6,58 +6,74 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 492,
+                        "durationMicroseconds": 188,
                         "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
                         "functionName": "rtspUrls",
-                        "line": 22
+                        "line": 30
                     },
                     {
-                        "codegenSuccessfull": false,
-                        "column": 23,
-                        "durationMicroseconds": 86,
-                        "errorMessage": "Cannot access value for name isGridView",
-                        "functionName": "currentIndex",
-                        "line": 34
+                        "codegenSuccessfull": true,
+                        "column": 18,
+                        "durationMicroseconds": 114,
+                        "errorMessage": "",
+                        "functionName": "visible",
+                        "line": 24
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 235,
+                        "durationMicroseconds": 28,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 33
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 23,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "Cannot access value for name isGridView",
+                        "functionName": "currentIndex",
+                        "line": 42
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 24,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 41
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 100,
+                        "durationMicroseconds": 28,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 39
+                        "line": 47
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 548,
+                        "durationMicroseconds": 226,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant",
                         "functionName": "color",
-                        "line": 56
+                        "line": 64
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 80,
+                        "durationMicroseconds": 24,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 61
+                        "line": 69
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 114,
+                        "durationMicroseconds": 43,
                         "errorMessage": "",
                         "functionName": "alignment",
-                        "line": 70
+                        "line": 78
                     },
                     {
                         "codegenSuccessfull": false,
@@ -65,47 +81,47 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"centerIn\".",
                         "functionName": "centerIn",
-                        "line": 84
+                        "line": 92
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 46,
-                        "durationMicroseconds": 97,
+                        "durationMicroseconds": 35,
                         "errorMessage": "",
                         "functionName": "cursorShape",
-                        "line": 93
+                        "line": 101
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 44,
-                        "durationMicroseconds": 26,
+                        "durationMicroseconds": 10,
                         "errorMessage": "Type (component in D:/QT_projects/swarm_gcs/Main.qml)::parent with type QQuickItem does not have a property color for writing",
                         "functionName": "onEntered",
-                        "line": 94
+                        "line": 102
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 43,
-                        "durationMicroseconds": 17,
+                        "durationMicroseconds": 6,
                         "errorMessage": "Type (component in D:/QT_projects/swarm_gcs/Main.qml)::parent with type QQuickItem does not have a property color for writing",
                         "functionName": "onExited",
-                        "line": 95
+                        "line": 103
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 44,
-                        "durationMicroseconds": 161,
+                        "durationMicroseconds": 140,
                         "errorMessage": "",
                         "functionName": "onClicked",
-                        "line": 96
+                        "line": 104
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 56,
+                        "durationMicroseconds": 23,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 91
+                        "line": 99
                     },
                     {
                         "codegenSuccessfull": false,
@@ -113,63 +129,71 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"centerIn\".",
                         "functionName": "centerIn",
-                        "line": 112
+                        "line": 120
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 46,
-                        "durationMicroseconds": 104,
+                        "durationMicroseconds": 38,
                         "errorMessage": "",
                         "functionName": "cursorShape",
-                        "line": 121
+                        "line": 129
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 44,
-                        "durationMicroseconds": 18,
+                        "durationMicroseconds": 8,
                         "errorMessage": "Type (component in D:/QT_projects/swarm_gcs/Main.qml)::parent with type QQuickItem does not have a property color for writing",
                         "functionName": "onEntered",
-                        "line": 122
+                        "line": 130
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 43,
-                        "durationMicroseconds": 15,
+                        "durationMicroseconds": 6,
                         "errorMessage": "Type (component in D:/QT_projects/swarm_gcs/Main.qml)::parent with type QQuickItem does not have a property color for writing",
                         "functionName": "onExited",
-                        "line": 123
+                        "line": 131
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 44,
-                        "durationMicroseconds": 156,
+                        "durationMicroseconds": 127,
                         "errorMessage": "",
                         "functionName": "onClicked",
-                        "line": 124
+                        "line": 132
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 54,
+                        "durationMicroseconds": 24,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 119
+                        "line": 127
                     },
                     {
-                        "codegenSuccessfull": true,
+                        "codegenSuccessfull": false,
                         "column": 43,
-                        "durationMicroseconds": 105,
-                        "errorMessage": "",
-                        "functionName": "fillMode",
+                        "durationMicroseconds": 211,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant",
+                        "functionName": "color",
                         "line": 158
                     },
                     {
                         "codegenSuccessfull": true,
+                        "column": 43,
+                        "durationMicroseconds": 47,
+                        "errorMessage": "",
+                        "functionName": "fillMode",
+                        "line": 166
+                    },
+                    {
+                        "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 79,
+                        "durationMicroseconds": 32,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 157
+                        "line": 165
                     },
                     {
                         "codegenSuccessfull": false,
@@ -177,7 +201,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"text\".",
                         "functionName": "text",
-                        "line": 163
+                        "line": 171
                     },
                     {
                         "codegenSuccessfull": false,
@@ -185,7 +209,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"left\".",
                         "functionName": "left",
-                        "line": 166
+                        "line": 174
                     },
                     {
                         "codegenSuccessfull": false,
@@ -193,23 +217,23 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"bottom\".",
                         "functionName": "bottom",
-                        "line": 167
+                        "line": 175
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 41,
-                        "durationMicroseconds": 202,
+                        "durationMicroseconds": 102,
                         "errorMessage": "Cannot access value for name rtspUrls",
                         "functionName": "source",
-                        "line": 180
+                        "line": 188
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 46,
-                        "durationMicroseconds": 68,
+                        "durationMicroseconds": 31,
                         "errorMessage": "",
                         "functionName": "videoOutput",
-                        "line": 181
+                        "line": 189
                     },
                     {
                         "codegenSuccessfull": false,
@@ -217,63 +241,63 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"fill\".",
                         "functionName": "fill",
-                        "line": 193
+                        "line": 201
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 46,
+                        "durationMicroseconds": 16,
                         "errorMessage": "Cannot access value for name swipeFeeds",
                         "functionName": "width",
-                        "line": 199
+                        "line": 207
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 29,
-                        "durationMicroseconds": 28,
+                        "durationMicroseconds": 11,
                         "errorMessage": "Cannot access value for name swipeFeeds",
                         "functionName": "height",
-                        "line": 200
+                        "line": 208
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 51,
-                        "durationMicroseconds": 102,
+                        "durationMicroseconds": 22,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 205
+                        "line": 213
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 51,
-                        "durationMicroseconds": 87,
+                        "durationMicroseconds": 41,
                         "errorMessage": "",
                         "functionName": "fillMode",
-                        "line": 216
+                        "line": 224
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 55,
-                        "durationMicroseconds": 49,
+                        "durationMicroseconds": 23,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 215
+                        "line": 223
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 86,
-                        "durationMicroseconds": 157,
+                        "durationMicroseconds": 72,
                         "errorMessage": "",
                         "functionName": "left",
-                        "line": 226
+                        "line": 234
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 88,
-                        "durationMicroseconds": 99,
+                        "durationMicroseconds": 91,
                         "errorMessage": "",
                         "functionName": "bottom",
-                        "line": 227
+                        "line": 235
                     },
                     {
                         "codegenSuccessfull": false,
@@ -281,7 +305,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"text\".",
                         "functionName": "text",
-                        "line": 233
+                        "line": 241
                     },
                     {
                         "codegenSuccessfull": false,
@@ -289,79 +313,79 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"centerIn\".",
                         "functionName": "centerIn",
-                        "line": 232
+                        "line": 240
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 33,
-                        "durationMicroseconds": 153,
+                        "durationMicroseconds": 74,
                         "errorMessage": "Cannot access value for name rtspUrls",
                         "functionName": "source",
-                        "line": 244
+                        "line": 252
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 38,
-                        "durationMicroseconds": 105,
+                        "durationMicroseconds": 30,
                         "errorMessage": "",
                         "functionName": "videoOutput",
-                        "line": 245
+                        "line": 253
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 100,
+                        "durationMicroseconds": 43,
                         "errorMessage": "",
                         "functionName": "bottom",
-                        "line": 262
+                        "line": 270
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 169,
+                        "durationMicroseconds": 41,
                         "errorMessage": "",
                         "functionName": "right",
-                        "line": 263
+                        "line": 271
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 25,
-                        "durationMicroseconds": 86,
+                        "durationMicroseconds": 21,
                         "errorMessage": "Cannot access value for name isGridView",
                         "functionName": "source",
-                        "line": 272
+                        "line": 280
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 123,
+                        "durationMicroseconds": 54,
                         "errorMessage": "",
                         "functionName": "fillMode",
-                        "line": 273
+                        "line": 281
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 59,
+                        "durationMicroseconds": 22,
                         "errorMessage": "",
                         "functionName": "centerIn",
-                        "line": 269
+                        "line": 277
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 58,
+                        "durationMicroseconds": 23,
                         "errorMessage": "Cannot access value for name isGridView",
                         "functionName": "onClicked",
-                        "line": 278
+                        "line": 286
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 57,
+                        "durationMicroseconds": 21,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 277
+                        "line": 285
                     }
                 ],
                 "filepath": "D:/QT_projects/swarm_gcs/Main.qml"

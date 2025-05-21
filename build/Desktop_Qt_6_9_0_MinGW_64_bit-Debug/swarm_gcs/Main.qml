@@ -18,6 +18,14 @@ Window {
     //     source: "qrc:/fonts/assets/Poppins-Regular.ttf"
     // }
 
+    Loader {
+        id: dynamicLoader
+        anchors.fill: parent
+        visible: dynamicLoader.status === Loader.Ready
+        z: 999
+    }
+
+
 
     property var rtspUrls: [
         "rtsp://192.168.0.130:8554/stream1",
@@ -95,7 +103,7 @@ Window {
                                 onExited: parent.color = "transparent"
                                 onClicked: {
                                     console.log("Navigating to Surveillance Logs page")
-                                    // TODO: implement page switch
+                                    dynamicLoader.source = "SurveillanceLogs.qml"
                                 }
                             }
                         }
@@ -123,7 +131,7 @@ Window {
                                 onExited: parent.color = "transparent"
                                 onClicked: {
                                     console.log("Navigating to Map View page")
-                                    // TODO: implement page switch
+                                    dynamicLoader.source = "MapView.qml"
                                 }
                             }
                         }
@@ -145,9 +153,9 @@ Window {
                             id: videoContainer
                             Layout.fillWidth: true
                             Layout.fillHeight: true
-                            color: "white"
+                            color: "#33F0F4F8"
                             radius: 16
-                            border.color: "#3B82F6"
+                            border.color: Qt.rgba(59 / 255, 130 / 255, 246 / 255, 0.5)
                             border.width: 1
                             // clip: true  // Important to enforce rounded corners on child items
                             // layer.enabled: true

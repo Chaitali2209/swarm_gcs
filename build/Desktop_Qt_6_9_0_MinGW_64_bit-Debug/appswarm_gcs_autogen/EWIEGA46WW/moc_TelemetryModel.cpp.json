@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "className": "TelemetryModel",
+            "lineNumber": 17,
+            "object": true,
+            "qualifiedClassName": "TelemetryModel",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "data",
+                            "type": "QJsonObject"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "addTelemetry",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "TelemetryModel.h",
+    "outputRevision": 69
+}
